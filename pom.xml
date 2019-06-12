@@ -30,11 +30,14 @@
 	<artifactId>systemone-basicstorage</artifactId>
 	<version>1.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
+	<build>
+		<finalName>systemone-basicstorage</finalName>
+	</build>
 
 	<name>SystemOne Basic storage</name>
 
 	<properties>
-		<basicstorage.version>1.4.0</basicstorage.version>
+		<basicstorage.version>1.5.0</basicstorage.version>
 		<logger.version>1.0.0</logger.version>
 		<storage.version>1.0.0</storage.version>
 	</properties>
@@ -51,7 +54,7 @@
 			<groupId>se.uu.ub.cora</groupId>
 			<artifactId>basicstorage</artifactId>
 			<version>${basicstorage.version}</version>
-			<scope>provided</scope>
+			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>se.uu.ub.cora</groupId>
@@ -63,7 +66,7 @@
 			<groupId>se.uu.ub.cora</groupId>
 			<artifactId>storage</artifactId>
 			<version>${storage.version}</version>
-			<scope>provided</scope>
+			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.testng</groupId>
