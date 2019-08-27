@@ -87,7 +87,7 @@ public class RecordStorageInMemoryReadFromDiskProviderTest {
 	}
 
 	@Test
-	public void testGetOrderToSelectImplementationsByIsZero() {
+	public void testGetOrderToSelectImplementationsByIsOne() {
 		assertEquals(recordStorageOnDiskProvider.getOrderToSelectImplementionsBy(), 1);
 	}
 
